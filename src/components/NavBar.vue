@@ -1,0 +1,52 @@
+<template>
+   <header class=" relative w-screen md:h-[375px] h-[350px]  ">
+      <nav 
+         class="bg-black w-screen h-28 text-white flex list-none gap-8 items-center sticky z-10 md:justify-end justify-center md:px-24 font-medium px-2 ">
+         <li><a href="">HOME</a></li>
+         <li><a href="">ABOUT</a></li>
+         <li><a href="">CONTRACT</a></li>
+         <button class=" bg-red-700 py-2 px-3 rounded  -tracking-wide"><a href="">SIGN UP</a>
+         </button>
+         <div class="bg-black w-screen  h-[410px] absolute -top-24 right-0  skew-y-[-12deg] -z-50">
+         </div>
+      </nav>
+      <h1
+         class="text-white font-bold text-3xl md:text-6xl absolute top-32 md:top-20 tracking-wide md:leading-[60px] leading-[46px] z-10 md:left-24 left-[calc(5%)]">
+         FIGHT LIKE A <br>
+         <span class=" text-red-600">CHAMPION</span>
+      </h1>
+      <div class="  z-20  md:-top-52 -top-36 relative md:left-[calc(30%)] md:w-[calc(40%)] scale-90">
+         <div class="left-[calc(85%-196px)] md:left-[calc(50%-196px)] relative md:w-96 w-80 top-14">
+            <img src="/public/05b8ff275ddaafa20e243c159c3114a4-removebg-preview.png" alt="">
+         </div>
+         <div
+            class="  bg-[#e6e6e6] md:top-[360px] top-[330px] z-30 absolute rounded-xl w-full md:h-24  py-1 drop-shadow-2xl shadow flex justify-around  items-center text-red-700 font-semibold md:text-[22px] ">
+
+            <div class="flex flex-col justify-center items-center">
+               <span class="material-symbols-outlined text-black md:text-[52px] text-[36px]">
+                  sports_martial_arts
+               </span>
+               CROSSFIT
+            </div>
+            <div class="flex flex-col justify-center items-center">
+               <span class="material-symbols-outlined text-black md:text-[52px] text-[36px]">
+                  fitness_center
+               </span>
+               WEIGHTS
+            </div>
+            <div class="flex flex-col justify-center items-center">
+               <span class="material-symbols-outlined text-black md:text-[52px] text-[36px]">
+                  heart_plus
+               </span>
+               EXCERCISE
+            </div>
+         </div>
+      </div>
+   </header>
+</template>
+
+<script setup lang="ts">
+
+</script>
+
+<style scoped></style>
