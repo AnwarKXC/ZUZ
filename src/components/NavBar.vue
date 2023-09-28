@@ -1,5 +1,5 @@
 <template>
-   <header class=" relative w-screen md:h-[375px]  overflow-hidden ">
+   <header class=" relative w-screen md:h-[500px]  overflow-hidden ">
       <nav 
          class="bg-black w-screen h-28 text-white flex list-none md:gap-8 gap-4 items-center sticky z-10 md:justify-end justify-center md:px-24 font-medium px-2  ">
          <li><a href="">HOME</a></li>
