@@ -1,5 +1,5 @@
 <template>
-   <header class=" relative w-screen md:h-[375px] h-[350px]  ">
+   <header class=" relative w-screen md:h-[375px]  overflow-hidden ">
       <nav 
          class="bg-black w-screen h-28 text-white flex list-none md:gap-8 gap-4 items-center sticky z-10 md:justify-end justify-center md:px-24 font-medium px-2  ">
          <li><a href="">HOME</a></li>
@@ -15,8 +15,8 @@
          FIGHT LIKE A <br>
          <span class=" text-red-600">CHAMPION</span>
       </h1>
-      <div class="  z-20  lg:-top-52 -top-36 relative lg:left-[calc(30%)] lg:w-[calc(40%)] scale-90">
-         <div class="left-[calc(85%-196px)] lg:left-[calc(70%-196px)] lg:top-[105px] relative xl:w-96 w-80 xl:left-[calc(50%-196px)] xl:top-10  top-14">
+      <div class="  z-20  lg:-top-52 -top-36 relative lg:left-[calc(30%)] lg:w-[calc(40%)] mx-4">
+         <div class="left-[calc(85%-196px)] lg:left-[calc(70%-196px)] lg:top-[105px] relative xl:w-96 w-80 xl:left-[calc(50%-196px)] xl:top-10  top-14 " >
             <img src="/public/05b8ff275ddaafa20e243c159c3114a4-removebg-preview.png" alt="">
          </div>
          <div
